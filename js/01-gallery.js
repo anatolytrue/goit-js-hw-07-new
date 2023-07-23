@@ -18,6 +18,7 @@ function createGallery(array) {
             </li>`)
         .join("")
 }
+
 const result = createGallery(galleryItems)
 
 gallery.insertAdjacentHTML('beforeend', result)
